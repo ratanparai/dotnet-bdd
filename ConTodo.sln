@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94137688-C1B2-419C-957B-18B53FDA175B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConTodo", "src\ConTodo\ConTodo.csproj", "{45877428-488F-4EAD-B5CB-CA45D7F18A0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E9E9197B-E213-4922-89E8-DA582C1A6577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConTodo.Specflow", "tests\ConTodo.Specflow\ConTodo.Specflow.csproj", "{645BEF58-9865-4E48-A226-FA4191D7E043}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45877428-488F-4EAD-B5CB-CA45D7F18A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45877428-488F-4EAD-B5CB-CA45D7F18A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45877428-488F-4EAD-B5CB-CA45D7F18A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45877428-488F-4EAD-B5CB-CA45D7F18A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{645BEF58-9865-4E48-A226-FA4191D7E043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{645BEF58-9865-4E48-A226-FA4191D7E043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{645BEF58-9865-4E48-A226-FA4191D7E043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{645BEF58-9865-4E48-A226-FA4191D7E043}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45877428-488F-4EAD-B5CB-CA45D7F18A0A} = {94137688-C1B2-419C-957B-18B53FDA175B}
+		{645BEF58-9865-4E48-A226-FA4191D7E043} = {E9E9197B-E213-4922-89E8-DA582C1A6577}
+	EndGlobalSection
+EndGlobal
