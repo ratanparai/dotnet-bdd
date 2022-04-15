@@ -15,5 +15,10 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
+		<PackageReference Include="SpecFlow.xUnit" Version="3.9.69"/>
+		<PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\src\ConTodo\ConTodo.csproj"/>
 	</ItemGroup>
 </Project>
